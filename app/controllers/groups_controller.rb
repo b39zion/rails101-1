@@ -23,7 +23,7 @@ class GroupsController < ApplicationController
 
     if @group.save
       redirect_to groups_path
-    esle
+    else
       render :new
     end
   end
